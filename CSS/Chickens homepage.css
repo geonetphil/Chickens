@@ -91,11 +91,13 @@ body {
 
 header {
   position: absolute;
+  display: block;
   top: 0px;
   right: 0px;
   left: 0px;
   background-color:yellow;
   z-index: 0;
+  margin-bottom: 3px;
 }
 
 h2 {
@@ -110,7 +112,6 @@ h2 {
 .gradient-background {
   background: linear-gradient(to right, green, brown, red);
   -webkit-background-clip: text;
-  
   color: transparent;
   font-size: 3em;
   display: inline;
@@ -125,7 +126,11 @@ h2 {
   display: inline-block;
   font-size: 1.5em;
 }
+figure {
+  display: block;
 
-img {
-  scale: 0.05, 0.05;
+}
+main {
+  display: block;
+  margin-top: 5px;
 }
