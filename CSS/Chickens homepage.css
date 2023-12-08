@@ -92,11 +92,11 @@ body {
 header {
   position: absolute;
   display: block;
+  z-index: 0;
   top: 0px;
   right: 0px;
   left: 0px;
   background-color:yellow;
-  z-index: 0;
   margin-bottom: 3px;
 }
 
@@ -126,11 +126,17 @@ h2 {
   display: inline-block;
   font-size: 1.5em;
 }
-figure {
-  display: block;
 
+.chicken-picture {
+  display: block;
+  position: relative;
+  left: 10cm;
 }
+
 main {
   display: block;
-  margin-top: 5px;
+  position: relative;
+  top: 20px;
+  z-index: 1;
+  margin-top: 4cm;
 }
